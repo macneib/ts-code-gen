@@ -1,0 +1,22 @@
+{
+  "name": "ts-code-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@temporalio/worker": "^1.2.0",
+    "@temporalio/workflow": "^1.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "@tsconfig/node16": "^1.0.0",
+    "@types/node": "^16.11.43",
+    "ts-morph": "^9.1.0",
+    "ts-node": "^9.0.0"
+  }
+}
